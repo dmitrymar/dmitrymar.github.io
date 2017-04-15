@@ -1,12 +1,12 @@
 # Site Settings
-title: Start Jekyll
-email: taniarascia@gmail.com
+title: Dmitry Mardukhayev 
+email: dmitrymar@yahoo.com 
 description: >
-  A guide to getting started with Jekyll.
+  Dmitry Mardukhayev Web Developer.
 baseurl: ""
-url: "http://taniarascia.github.io"
-twitter_username: taniarascia
-github_username:  taniarascia
+url: "https://dmitrymar.github.io/"
+twitter_username: dmitrymar 
+github_username:  dmitrymar 
 # Build Settings
 sass:
   sass_dir: _sass
