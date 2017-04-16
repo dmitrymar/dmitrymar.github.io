@@ -5,6 +5,7 @@ description: >
   Dmitry Mardukhayev Web Developer.
 baseurl: ""
 url: "https://dmitrymar.github.io/"
+permalink: /blog/:year/:month/:day/:title
 twitter_username: dmitrymar 
 github_username:  dmitrymar 
 # Build Settings
