@@ -18,3 +18,4 @@ and [Tania Rascia](https://www.taniarascia.com/make-a-static-website-with-jekyll
 Writing blog posts is definetly different than using wordpress. 
 With wordpress you can create posts using admin section while in Jekyll you create posts 
 in a separate text file that needs to  be named a certain way and created using Markdown/Kramdown. 
+
