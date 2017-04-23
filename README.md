@@ -7,6 +7,7 @@
 * Integrate Canvas Template stylesheet
 * Migrate all blog posts from kooljoy to kooljoy.wordpress.com and this blog
 * Integrate Disqus
+* Integrate google analytics
 * Create [404 eror pages](http://jmcglone.com/blog) 
 * Transfer kooljoy domain
 * Add [blogging pagination](http://jmcglone.com/guides/github-pages/)
