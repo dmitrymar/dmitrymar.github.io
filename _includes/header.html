@@ -1,18 +1,9 @@
-<aside>
-	<div class="container">
-		<nav>
-			<ul>
-				<li><a href="https://twitter.com/dmitrymar">Twitter</a></li>
-				<li><a href="https://github.com/dmitrymar">GitHub</a></li>
-{% comment %}
-				{% for page in site.pages %} {% if page.title %}
-				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-				{% endif %} {% endfor %}
-				<li><a href="{{ "/blog" | prepend: site.baseurl }}">Blog</a></li>
-{% endcomment %}
-			</ul>
-			</li>
-			</ul>
-		</nav>
-	</div>
-</aside>
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+						<li role="presentation"><a href="https://twitter.com/dmitrymar">Twitter</a></li>
+						<li role="presentation"><a href="https://github.com/dmitrymar">GitHub</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted"><a href="/">Dmitry Mardukhayev</a></h3>
+      </div>
