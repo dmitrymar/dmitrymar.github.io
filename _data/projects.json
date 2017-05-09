@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Stock Portfolio",
+    "link": "http://www.kooljoy.com/stock_portfolio/",
+    "description": "Allow a user to search for a stock symbol and add a stock to portfolio. Built with Angular"
+  },
+  {
+    "name": "Vehicle Selector",
+    "link": "http://output.jsbin.com/ezilez/8",
+    "description": "Choose a vehicle with the help of vehicle api. Built with jQuery"
+  },
+  {
+    "name": "Zip Code Lookup",
+    "link": "http://codepen.io/dmitrymar/full/GWegrr/",
+    "description": "Enter zip code to display city and state in a dropdown. Built With Angular"
+  },
+  {
+    "name": "Mask User Input",
+    "link": "http://codepen.io/dmitrymar/full/QEpmNQ/",
+    "description": "This widget adds a mask to the field so it is easier for the user to type in values. There are three types of masks - numeric, alpha and alphanumeric. Built with Angular"
+  }
+]

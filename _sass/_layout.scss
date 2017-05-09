@@ -40,5 +40,22 @@ body {
 	}
     }
  }
+	.project-box {
+		margin-bottom: 3%;
+		h4 {
+			margin:0;
+			a {
+				color:#444;
+    	&:hover {
+		color: #1ABC9C;
+	}
+				
+			}
+		}
+		p {
+			margin: 8px 0 0 0;
+    			color: #999;
+    		}
+	}
 }
 
