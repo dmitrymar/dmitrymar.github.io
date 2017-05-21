@@ -13,12 +13,12 @@ body {
     transition: height .4s ease, opacity .3s ease;
 	.navbar-brand {
     		color: #444;
-    		font-weight: bold;
+    		font-weight: 600;
     		font-size: 21px;
     		letter-spacing: 1px;
-    		font-family: 'Raleway', sans-serif;
+    		font-family: $heading-font;
 		&:hover {
-			
+
 		color: #1ABC9C;
 		}
    	 }
@@ -49,7 +49,7 @@ body {
     	&:hover {
 		color: #1ABC9C;
 	}
-				
+
 			}
 		}
 		p {

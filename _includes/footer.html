@@ -1,17 +1,17 @@
 <!-- imitate this one -->
-<footer id="footer" class="dark">
+<footer class="default-footer">
 		<div class="container">
   			<div class="row">
     				<div class="col">
        					<p>&copy; {{ "now" | date: "%Y" }} Dmitry Mardukhayev</p>
    				</div>
     				<div class="col">
-					<p class="copyrights-menu copyright-links fright clearfix">
-						<a href="#">Home</a>/
-						<a href="#">Twitter</a>/
-						<a href="#">GitHub</a>/
-						<a href="#">Blog</a>/
-						<a href="#">Contact</a>
+					<p class="copyright-links float-right">
+						{% for link in site.data.navigation %}
+							<a href="{{ link.url }}" target="_blank">
+								{{ link.name }}
+							</a>{% if forloop.last == false %}/{% endif %}
+						{% endfor %}
 					</p>
     				</div>
   			</div>
