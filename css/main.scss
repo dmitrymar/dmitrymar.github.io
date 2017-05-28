@@ -1,7 +1,11 @@
 ---
 # Front matter comment to ensure Jekyll properly reads file.
 ---
-@import 
-	"base",
+@import
+	"variables",
+	"typography",
+	"headings",
+	"footer",
+	"mixins",
   "layout",
   "syntax-highlighting"

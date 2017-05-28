@@ -1,0 +1,19 @@
+.default-footer {
+  background-color: #333;
+  color: rgba(255,255,255,0.25);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+  border-top-color: rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  line-height: 1.8;
+  padding: 40px 0;
+
+  .copyright-links {
+    a {
+      color: rgba(255,255,255,0.25);
+      font-size: 14px;
+      margin: 0 10px;
+      display: inline-block;
+      background-color: transparent;
+    }
+  }
+}
