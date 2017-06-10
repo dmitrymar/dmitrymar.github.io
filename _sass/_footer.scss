@@ -1,19 +1,46 @@
 .default-footer {
+  padding-top: 1.5em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 105px;
   background-color: #333;
   color: rgba(255,255,255,0.25);
   text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
   border-top-color: rgba(0, 0, 0, 0.2);
   font-size: 14px;
-  line-height: 1.8;
-  padding: 40px 0;
 
+  p {
+    margin: 0;
+  }
   .copyright-links {
     a {
       color: rgba(255,255,255,0.25);
       font-size: 14px;
+      background-color: transparent;
       margin: 0 10px;
       display: inline-block;
-      background-color: transparent;
+      &:hover {
+        color: rgba(255,255,255,0.35);
+      }
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .default-footer {
+    padding-top: 0;
+    line-height: 105px; /* Vertically center the text there */
+
+    .copyright-links {
+      float: right;
+    }
+    .footer-email {
+      float: right;
     }
   }
 }

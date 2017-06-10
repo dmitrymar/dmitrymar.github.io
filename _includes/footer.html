@@ -1,19 +1,22 @@
 <!-- imitate this one -->
 <footer class="default-footer">
-		<div class="container">
-  			<div class="row">
-    				<div class="col">
-       					<p>&copy; {{ "now" | date: "%Y" }} Dmitry Mardukhayev</p>
-   				</div>
-    				<div class="col">
-					<p class="copyright-links float-right">
-						{% for link in site.data.navigation %}
-							<a href="{{ link.url }}" target="_blank">
-								{{ link.name }}
-							</a>{% if forloop.last == false %}/{% endif %}
-						{% endfor %}
-					</p>
-    				</div>
-  			</div>
-		</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <p>&copy; {{ "now" | date: "%Y" }} Dmitry Mardukhayev</p>
+            </div>
+            <div class="col-lg">
+                <p class="copyright-links">
+                    {% for link in site.data.navigation %}
+                    <a href="{{ link.url }}" target="_blank">
+                        {{ link.name }}
+                    </a>{% if forloop.last == false %}/{% endif %}
+                    {% endfor %}
+                </p>
+            </div>
+            <div class="col-lg">
+                <p class="footer-email"><i class="icon-envelope2"></i> dmitrymar@yahoo.com</p>
+            </div>
+        </div>
+    </div>
 </footer>
