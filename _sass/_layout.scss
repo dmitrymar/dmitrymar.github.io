@@ -1,67 +1,68 @@
 html {
-  position: relative;
-  min-height: 100%;
+	position: relative;
+	min-height: 100%;
 }
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 105px;
+	/* Margin bottom by footer height */
+	margin-bottom: 105px;
 	padding-top: 6rem;
- #topnav {
-	 position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #FFF;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    height: 60px;
-    z-index: 199;
-    background-color: #FFF;
-    transition: height .4s ease, opacity .3s ease;
-	.navbar-brand {
-    		color: #444;
-    		font-weight: 600;
-    		font-size: 21px;
-    		letter-spacing: 1px;
-    		font-family: $heading-font;
-		&:hover {
+	#topnav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		background-color: #FFF;
+		box-shadow: 0 0 10px rgba(0,0,0,0.1);
+		height: 60px;
+		z-index: 199;
+		background-color: #FFF;
+		transition: height .4s ease, opacity .3s ease;
+		.navbar-brand {
+			color: #444;
+			font-weight: 600;
+			font-size: 21px;
+			letter-spacing: 1px;
+			font-family: $heading-font;
+			&:hover {
 
-		color: #1ABC9C;
+				color: #1ABC9C;
+			}
 		}
-   	 }
 
-	#navbarNav {
+		#navbarNav {
+			justify-content: flex-end;
+		}
+		#navbarNav> ul > li > a {
+			color: #444;
+			padding-left: 15px;
+			padding-right: 15px;
+			background:#FFF;
+			font-weight: bold;
+			font-size: 13px;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			font-family: 'Raleway', sans-serif;
+			&:hover {
+				color: #1ABC9C;
+			}
+		}
 	}
-    #navbarNav> ul > li > a {
-    color: #444;
-    padding-left: 15px;
-    padding-right: 15px;
-    background:#FFF;
-    font-weight: bold;
-    font-size: 13px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
-    	&:hover {
-		color: #1ABC9C;
-	}
-    }
- }
 	.project-box {
 		margin-bottom: 2.5em;
 		h4 {
 			margin:0;
 			a {
 				color:#444;
-    	&:hover {
-		color: #1ABC9C;
-	}
+				&:hover {
+					color: #1ABC9C;
+				}
 
 			}
 		}
 		p {
 			margin: 8px 0 0 0;
-    			color: #999;
-    		}
+			color: #999;
+		}
 	}
 }
 
