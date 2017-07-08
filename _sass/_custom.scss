@@ -2,7 +2,6 @@
 // Add your styles here
 body {
   padding-top: 120px;
-  background: #fff;
 }
 
 pre {
@@ -20,7 +19,21 @@ pre {
 }
 
 #home {
-  padding-top: 0
+  padding-top: 0;
+
+  .avatar {
+    border-radius: 50%;
+    width: 50%;
+  }
+
+  h2 {
+    margin-top: 2rem;
+  }
+
+  .row {
+    margin-bottom: 1rem;
+  }
+
 }
 
 #home .navbar {

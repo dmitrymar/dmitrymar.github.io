@@ -2,41 +2,40 @@
 layout: default
 ---
 
-    <div class="container">
+<div id="home">
+    <div class="row">
+        <div class="col-md-8 push-md-4">
+            <h1>Hi. My name is Dmitry</h1>
+            <p class="lead">
+                I develop front-end code using HTML, CSS, and JavaScript.
+                I'm particularly enthusiastic about JavaScript and I learn frameworks and libraries
+                that are built using it such as React.
+                <br><br>
+                If you want to get in touch, send me an email dmitrymar@yahoo.com
+            </p>
+        </div>
+        <div class="col-md-4 pull-md-8">
+            <img class="avatar" alt="Dmitry Mardukhayev" src="images/dmitry-silhouette.jpg">
+        </div>
+    </div>
+    <div class="bs-docs-section">
         <div class="row">
-            <div class="col-md-8 push-md-4">
-                <h1>Hi. My name is Dmitry</h1>
-                <p class="lead">
-                    I develop front-end code using HTML, CSS, and JavaScript.
-                    I'm particularly enthusiastic about JavaScript and I learn frameworks and libraries
-                    that are built using it such as React.
-                    <br><br>
-                    If you want to get in touch, send me an email dmitrymar@yahoo.com
-                </p>
-            </div>
-            <div class="col-md-4 pull-md-8">
-                <img alt="Dmitry Mardukhayev" src="images/dmitry-silhouette.jpg">
+            <div class="col-lg-12">
+                <h2>Projects</h2>
             </div>
         </div>
-    </div>
-
-<div class="bs-docs-section">
-    <div class="row">
-        <div class="col-lg-12">
-            <div class="page-header">
-                <h1 id="typography">Projects</h1>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        {% for project in site.data.projects %}
+        <div class="row">
+            {% for project in site.data.projects %}
             <div class="col-lg-4">
                 <div class="bs-component">
-                    <h4>{{ project.name }}</h4>
+                    <h5>{{ project.name }}</h5>
                     <p>{{ project.description }}</p>
                     <p><a class="btn btn-outline-primary btn-sm" href="{{ project.link }}">View App</a></p>
                 </div>
             </div>
-        {% endfor %}
+            {% endfor %}
+        </div>
     </div>
 </div>
+
+
