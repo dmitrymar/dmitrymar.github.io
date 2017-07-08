@@ -1,13 +1,12 @@
-<nav id="topnav" class="navbar navbar-light navbar-toggleable-md fixed-top">
+<div class="navbar navbar-toggleable-md fixed-top navbar-light bg-primary">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
     <div class="container">
-        <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="#">Dmitry Mardukhayev</a>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <a href="../" class="navbar-brand">Dmitry Mardukhayev</a>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="nav navbar-nav ml-auto">
                 {% for link in site.data.navigation %}
                 {% if link.url != "/" %}
                 <li class="nav-item">
@@ -18,6 +17,7 @@
                 {% endif %}
                 {% endfor %}
             </ul>
+
         </div>
     </div>
-</nav>
+</div>
