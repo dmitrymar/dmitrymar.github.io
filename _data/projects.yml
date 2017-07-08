@@ -10,9 +10,9 @@
   link: http://codepen.io/dmitrymar/full/GWegrr/
   description: Enter zip code to display city and state in a dropdown. Built With
     Angular
-- name: Mask User Input
-  link: http://codepen.io/dmitrymar/full/QEpmNQ/
-  description: This widget adds a mask to the field so it is easier for the user to
-    type in values. There are three types of masks - numeric, alpha and alphanumeric.
-    Built with Angular
+#- name: Mask User Input
+#  link: http://codepen.io/dmitrymar/full/QEpmNQ/
+#  description: This widget adds a mask to the field so it is easier for the user to
+#    type in values. There are three types of masks - numeric, alpha and alphanumeric.
+#    Built with Angular
 
